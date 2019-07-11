@@ -46,8 +46,8 @@
                 </div>
         <?php } } ?>
 
-             </div>
-        </div>
-    </section>
+                </div>
+            </div>
+        </section>
     </div>
 </section>

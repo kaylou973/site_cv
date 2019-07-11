@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 10%;
+    padding: 0 0 0 50px;
+    background: rgb(14, 13, 13);
+    overflow: hidden;/* gère les dépassement du conteneur c'est à dire qu'elle masque le contenue si celui-ci dépasse (voir: https://developer.mozilla.org/fr/docs/web/CSS/overflow) */
+    z-index: 9999;
+    opacity: 0.6;
+    float: right;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Diplomata SC', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+}
+.reserve, #reserve{
+    text-align: center;
+}
+.line{
+    font-size: 12Px;
+}
+.droite{
+    background: url(../img/dinosaure.jpg) no-repeat;
+    height: 999px;
+    width: 100%;
+}
+
+.numero1 {
+    position: absolute;
+    top: 300px;
+    left: 471px;
+    width: 491px;
+    z-index: 1;
+}
+
+.numero2 {
+    
+    position: absolute;
+    top: 824px;
+    left: 1123px;
+    width: 227px;
+    height: 217px;
+    z-index: 2;
+}
+
+footer{
+    background-color: black;
+    color: #FFF;
+    height: 306px;
+}
+
+#tirex{
+    text-align: right;
+    top: 41px;
+    right: 23px;
+}

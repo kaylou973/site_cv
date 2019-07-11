@@ -1,0 +1,158 @@
+/* 
+Global
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(28, 28, 28);
+}
+/* 
+Header 
+*/
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(247, 247, 247, 0.801);
+    
+}
+
+nav{
+    float: left;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 15% 0 15%;
+
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+}
+li{
+    float: left;
+    padding-left: 20px;
+}
+.A{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.B{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+}
+
+nav .Z {
+    border: 1px solid #000;
+    background-color: rgba(194, 191, 191, 0.466);
+    width: 434px;
+}
+
+nav ul .B {
+    border-left: 2px solid rgb(139, 136, 136);
+    height: 30px;
+}
+.D{
+    position: relative;
+    left: 555PX;
+    top: -69px;
+}
+.T{
+    position: relative;
+    left: 557px;
+    top: -103px;
+}
+.Y{
+    position: relative;
+    left: -15px;
+    top: -12px;
+}
+span{
+    color: rgb(234, 159, 5);
+}
+.border{
+    border-left: 2px solid rgba(234, 159, 5);
+    height: 142px;
+    position: relative;
+    left: 143px;
+    top: 158px;
+}
+
+/*
+Main
+*/
+
+main section {
+    background: rgb(28, 28, 28);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+main .container{
+    width: 1052px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 149px;
+}
+
+main .container .G{
+    float: right;
+    width: 366px;
+    padding-right: 82px;
+    padding-top: 23px;
+}
+
+main .container .U{
+    width: 366px;
+    padding-left: 82px;
+    padding-top: 3px;
+    /* border: 1px solid; */
+    /* box-shadow: 10px 10px 8px #888888; */
+}
+
+.F{
+    position: relative;
+    left: 128px;
+    top: -37px;
+}
+
+.H{
+    position: relative;
+    left: 651px;
+    top: 366px;
+}
+
+/* .menu_footer{
+    background-color: rgb(25, 189, 25);
+    height: 54px;
+}
+
+footer{
+    background: rgb(184, 28, 28);
+    height: 280px;
+}
+
+.ma_classe {
+    text-decoration: line-through;
+    color: #000;
+}
+
+button{
+    background: #000;
+    color: #FFF;
+}
+
+#k{
+    float: right;
+} */

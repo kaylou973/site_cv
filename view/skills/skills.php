@@ -20,7 +20,7 @@
 		<?php foreach ($skills as $skill) :  ?>
 				<h4><?php echo $skill->name;  ?></h4>
 				<div class="progress">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill->level;  ?>%"></div>
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill->level;  ?>%"></div>
 				</div>
 		<?php endforeach; ?>
 	</div>

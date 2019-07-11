@@ -44,7 +44,7 @@
                         <a class="nav-link" href="connexion.php?deco=deconnexion">Déconnexion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo URL ?>" target="_bank">site</a>
+                        <a class="nav-link" href="<?php echo URL ?>" target="_blank">site</a>
                     </li>
                 </ul>
             </div>
